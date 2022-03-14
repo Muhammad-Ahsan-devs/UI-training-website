@@ -1,0 +1,255 @@
+*{
+  line-height: 1.8;
+}
+/*--------------------------------------------------------------
+# Front (Section)
+--------------------------------------------------------------*/
+nav a{
+  text-decoration: none;
+  color: rgb(255, 253, 253);
+}
+
+.bg-img{
+  background-image: url(./img/xhero_1.jpg.pagespeed.ic.yu1ylfvph1.webp);
+  background-position: center;
+  height: 640px;
+  width: 100%;
+}
+
+.data-on-img{
+  background: rgba(0, 0, 0, 0.4);
+  height: 640px;
+  width: 100%;
+}
+
+.header-set{
+  padding-top: 120px;
+}
+
+/*--------------------------------------------------------------
+# icon-boxes (Section)
+--------------------------------------------------------------*/
+.icon-boxes {
+  margin-top: -150px;
+}
+.icon-boxes a{
+  text-decoration: none;
+  color: black;
+}
+
+.icon-boxes p{
+  color: #b4b3b3;
+}
+
+.overlap .block-box {
+  z-index: 1;
+  padding: 30px;
+  background: #fff;
+  -webkit-box-shadow: 0 15px 30px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+/*--------------------------------------------------------------
+# Why Us (Section)
+--------------------------------------------------------------*/
+.why-us-section{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.accordion .accordion-item h2 {
+  font-size: 15px
+}
+
+.accordion .accordion-item h2 a {
+  padding: 10px 0px;
+  display: block;
+  color: #000;
+  cursor: pointer;
+  position: relative;
+  padding-left: 30px
+}
+
+.accordion .accordion-item h2 a:before {
+  position: absolute;
+  font-family: "icomoon";
+  content: "\f196";
+  font-size: 15px;
+  left: 0;
+  top: .4em
+}
+
+.accordion .accordion-item h2 a[aria-expanded=true] {
+  color: #0389FF
+}
+
+.accordion .accordion-item h2 a[aria-expanded=true]:before {
+  content: "\f147"
+}
+
+.accordion .accordion-item .accordion-body {
+  padding: 10px 30px;
+  border-left: 30px solid #f8f9fa
+}
+
+.accordion .accordion-item .accordion-body p:last-child {
+  margin-bottom: 0
+}
+
+/*--------------------------------------------------------------
+# Stats (Section)
+--------------------------------------------------------------*/
+.num{
+  color: rgb(0, 174, 255);
+}
+
+/*--------------------------------------------------------------
+# Leadership (Section)
+--------------------------------------------------------------*/
+.leadership{
+  margin-top: 100px;
+}
+
+.leadership a{
+  text-decoration: none;
+  color: black;
+}
+
+.lead {
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  height: 400px;
+  margin-bottom: 40px;
+}
+
+.lead .lead-description {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background: #fff;
+  padding: 1.5em 1em;
+  opacity: 1;
+  height: 115px;
+  overflow: hidden
+}
+
+.lead .lead-description h3 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 20px
+}
+
+.lead .lead-description span {
+  color: #b3b3b3;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 15px
+}
+
+.lead .lead-description .parag {
+  opacity: 0;
+}
+
+.lead .lead-description .parag p {
+  color: #4d4d4d
+}
+
+/*--------------------------------------------------------------
+# Feadback (Section)
+--------------------------------------------------------------*/
+.feadback-section{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.testimonial-wrap .quote {
+  line-height: 1;
+  position: relative;
+  font-size: 100px;
+  color: #000;
+  text-align: center
+}
+
+.block-testomonial {
+  text-align: center
+}
+
+.block-testomonial p {
+  font-size: 15px;
+  color: #000;
+  line-height: 2
+}
+
+
+/*--------------------------------------------------------------
+# Blog (Section)
+--------------------------------------------------------------*/
+.blog-section{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+/*--------------------------------------------------------------
+# Footer (Section)
+--------------------------------------------------------------*/
+.footer-section a{
+  text-decoration: none;
+  color: black
+
+}
+
+.footer-section{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.block-footer-widget h3 {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #b4b3b3
+}
+
+.block-footer-widget p {
+  color: #b4b3b3
+}
+
+.block-social li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+
+/*
+
+<div class="container">
+      <div class="row text-center mb-5">
+        <div class="col-12">
+          <h2>Happy Customers</h2>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+
+        <div class="col-md-8 testimonial-wrap">
+          <div class="quote"><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor"
+              class="" viewBox="0 0 16 16">
+              <path
+                d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
+            </svg></div>
+          <div>
+            <div class="item active">
+              <blockquote class="block-testomonial">
+                <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                  there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+                  Semantics, a large language ocean.&rdquo;</p>
+                <p><cite>Drew Wilson, CEO and Founder of CoLab</cite></p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+*/
