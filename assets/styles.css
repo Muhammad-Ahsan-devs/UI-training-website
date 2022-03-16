@@ -1,32 +1,33 @@
-*{
+* {
   line-height: 1.8;
 }
+
 /*--------------------------------------------------------------
 # Front (Section)
 --------------------------------------------------------------*/
-.ok{
+.front-text {
   margin-top: -600px;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   color: rgb(255, 253, 253);
 }
 
-.bg-img{
+.bg-img {
   background-image: url(./img/xhero_1.jpg.pagespeed.ic.yu1ylfvph1.webp);
   background-position: center;
   height: 640px;
   width: 100%;
 }
 
-.data-on-img{
+.data-on-img {
   background: rgba(0, 0, 0, 0.4);
   height: 640px;
   width: 100%;
 }
 
-.header-set{
+.header-set {
   padding-top: 120px;
 }
 
@@ -36,18 +37,33 @@ nav a{
   }
 }
 
+@media only screen and (max-width: 402px) {
+  .front-text {
+    margin-top: -680px;
+  }
+
+  .front-text h1 {
+    font-size: 30px;
+  }
+
+  .front-text p {
+    font-size: 14px;
+  }
+}
+
 /*--------------------------------------------------------------
 # icon-boxes (Section)
 --------------------------------------------------------------*/
 .icon-boxes {
   margin-top: 100px;
 }
-.icon-boxes a{
+
+.icon-boxes a {
   text-decoration: none;
   color: black;
 }
 
-.icon-boxes p{
+.icon-boxes p {
   color: #b4b3b3;
 }
 
@@ -62,10 +78,22 @@ nav a{
 /*--------------------------------------------------------------
 # Why Us (Section)
 --------------------------------------------------------------*/
-.why-us-section{
+.why-us-section {
   margin-top: 150px;
   margin-bottom: 150px;
 }
+
+.why-us-img{
+  width: 100%;
+  height: 470px
+}
+
+@media only screen and (max-width: 992px) {
+  .why-us-img {
+    height: auto;
+  }
+}
+
 
 .accordion .accordion-item h2 {
   font-size: 15px
@@ -109,18 +137,18 @@ nav a{
 /*--------------------------------------------------------------
 # Stats (Section)
 --------------------------------------------------------------*/
-.num{
+.num {
   color: rgb(0, 174, 255);
 }
 
 /*--------------------------------------------------------------
 # Leadership (Section)
 --------------------------------------------------------------*/
-.leadership{
+.leadership {
   margin-top: 100px;
 }
 
-.leadership a{
+.leadership a {
   text-decoration: none;
   color: black;
 }
@@ -143,6 +171,20 @@ nav a{
   opacity: 1;
   height: 115px;
   overflow: hidden
+}
+
+@media only screen and (max-width: 430px) {
+  .lead .lead-description {
+    height: 150px;
+    size: 10px;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  .lead .lead-description {
+    height: 155px;
+    padding-top: 5px;
+  }
 }
 
 .lead .lead-description h3 {
@@ -169,7 +211,7 @@ nav a{
 /*--------------------------------------------------------------
 # Feadback (Section)
 --------------------------------------------------------------*/
-.feadback-section{
+.feadback-section {
   margin-top: 150px;
   margin-bottom: 150px;
 }
@@ -197,7 +239,7 @@ nav a{
 /*--------------------------------------------------------------
 # Blog (Section)
 --------------------------------------------------------------*/
-.blog-section{
+.blog-section {
   margin-top: 100px;
   margin-bottom: 100px;
 }
@@ -206,12 +248,12 @@ nav a{
 /*--------------------------------------------------------------
 # Footer (Section)
 --------------------------------------------------------------*/
-.footer-section a:not(p a){
+.footer-section a:not(p a) {
   text-decoration: none;
   color: black;
 }
 
-.footer-section{
+.footer-section {
   padding-top: 100px;
   padding-bottom: 100px;
 }
