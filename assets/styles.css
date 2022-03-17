@@ -245,6 +245,46 @@ nav a {
 }
 
 
+.blog-pic {
+  height: 500px;
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  position: relative
+}
+
+.blog-pic.small {
+  width: 100%
+}
+
+@media (min-width:576px) {
+  .blog-pic.small {
+    width: 50%
+  }
+}
+
+@media (min-width:768px) {
+  .blog-pic.small {
+    width: 33.333%
+  }
+}
+
+.blog-pic.large {
+  width: 100%
+}
+
+@media (min-width:576px) {
+  .blog-pic.large {
+    width: 50%
+  }
+}
+
+@media (min-width:768px) {
+  .blog-pic.large {
+    width: 66.666%
+  }
+}
+
 /*--------------------------------------------------------------
 # Footer (Section)
 --------------------------------------------------------------*/
